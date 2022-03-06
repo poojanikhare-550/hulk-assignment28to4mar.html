@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.popup{
+    position: fixed;
+    top: 40%;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px 30px;
+    width: fit-content;
+    display: none;
+}
+.d-none{
+    display: none;
+}
+.d-show{
+   display: initial;
+}
